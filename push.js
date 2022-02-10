@@ -20,8 +20,6 @@ let sub = {
         "p256dh": "BMD39KtU3kHr3WDaqoBuwdpeqd9t-QEWqxh9stiQqux9DgbAsTAbBTS6Dd8bXE0ycl-MBM_cerZ5pMfQxEjUqyE",
         "auth": "czuifT5RFOeLGTumIIBBGQ"
     }
-}
-
 };
 
 push.sendNotification(sub, "Test message");
