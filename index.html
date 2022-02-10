@@ -23,8 +23,9 @@
             let sw = await navigator.serviceWorker.ready;
             let push = await sw.pushManager.subscribe({
                 userVisibleOnly: true,
-                applicationServerKey: 'BOkXeAtRnXWqfrNs9Cla1d4UoPjvUbhgYqyJm_OJHm7BU2Z0ZOpWNlyandmibawc0oV2axEGMiTZA7_goY4V4SU'
+                applicationServerKey: 'BOH4HvtQB7n8-6O848rNDb-0ehwPF2MwiI5rlKzwwuBofVO90Zl02BT7W1GQmk2iSGDS5PLzGeuY3SQxrokGJRQ'
             })
+            console.log('subcried');
             console.log(JSON.stringify(push));
         }
     </script>

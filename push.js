@@ -1,13 +1,14 @@
 var push = require("web-push");
 
 let vapiKeys = {
-    publicKey: 'BOkXeAtRnXWqfrNs9Cla1d4UoPjvUbhgYqyJm_OJHm7BU2Z0ZOpWNlyandmibawc0oV2axEGMiTZA7_goY4V4SU',
-    privateKey: 'r4xfZjXiS2o1NOUHGFMqWlyqM3lAJtp8s-hrR9nW2dY'
+ publicKey: 'BOH4HvtQB7n8-6O848rNDb-0ehwPF2MwiI5rlKzwwuBofVO90Zl02BT7W1GQmk2iSGDS5PLzGeuY3SQxrokGJRQ',
+  privateKey: 'Dzt3WAubTtM3e2Pzxva0LkxSNOUqHc2YLuMv-Dwn0ek'
 };
-//let vapiKeys = push.generateVAPIDKeys();
+/*
+let vapiKeys = push.generateVAPIDKeys();
 
-//console.log(vapiKeys);
-
+console.log(vapiKeys);
+*/
 push.setVapidDetails(
     'mailto:ratti222@gmail.com',
     vapiKeys.publicKey,
@@ -22,4 +23,5 @@ let sub = {
     }
 };
 
+console.log('test message');
 push.sendNotification(sub, "Test message");

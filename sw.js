@@ -1,4 +1,4 @@
-console.log('Service worker loaded...');
+console.log('Service worker loaded send push...');
 
 self.addEventListener('push', e => {
 
