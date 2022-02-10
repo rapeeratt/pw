@@ -13,7 +13,7 @@
     <script>
         addEventListener('load', async () => {
             let sw = await navigator.serviceWorker.register('./sw.js')
-            console.log(sw)
+            console.log(sw);
         });
 
         async function subscribe() {
@@ -22,7 +22,7 @@
                 userVisibleOnly: true,
                 applicationServerKey: 'BOkXeAtRnXWqfrNs9Cla1d4UoPjvUbhgYqyJm_OJHm7BU2Z0ZOpWNlyandmibawc0oV2axEGMiTZA7_goY4V4SU'
             })
-            console.log(JSON.stringify(push))
+            console.log(JSON.stringify(push));
         }
     </script>
 </body>
