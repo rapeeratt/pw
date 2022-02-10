@@ -15,11 +15,11 @@ push.setVapidDetails(
     vapiKeys.privateKey
 );
 let sub = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/fzzTVbbd-gg:APA91bFC8ybHIgjAXGPpBQdR8cjTKEiS5xHXuVmJDJSrNRNTo759vc2UjYyMSDjTMvxBU-HImGcxGaJcuLm8pfpykBFJM47CTvXrreiECmPyssxO4qUARmV9NpH_M1iHwNYLmqlGg35S",
+    "endpoint": "https://fcm.googleapis.com/fcm/send/dAXDTfRJhng:APA91bGVoyiKAsm3GmteuAL1DHpNN1r6jM5pNup8ayRBTI6hSHsCFQyGDPYtUBFycIUlALdYjkyazcCKpqsbXjQx4enhkHvO5iImbkEA1SGNLR1zMblYHzqij4tbxTweC9rEfLB-P8Pt",
     "expirationTime": null,
     "keys": {
-        "p256dh": "BMD39KtU3kHr3WDaqoBuwdpeqd9t-QEWqxh9stiQqux9DgbAsTAbBTS6Dd8bXE0ycl-MBM_cerZ5pMfQxEjUqyE",
-        "auth": "czuifT5RFOeLGTumIIBBGQ"
+        "p256dh": "BPXwHP5af4udIbONbCDulTebgo1kWc_6uQHhypVsDjNP1TE1-D1PUa1R_bAbON8KSO-FzL-OA3rbaZ_qMwcoBME",
+        "auth": "IvPOsHTAHbPRjaqDmZOJCg"
     }
 };
 
