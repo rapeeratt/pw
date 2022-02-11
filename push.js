@@ -15,12 +15,14 @@ push.setVapidDetails(
     vapiKeys.privateKey
 );
 let sub = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/cZN_bHWczOE:APA91bGBEJU4HDS8HoF0HMY24G2898soYL1Jh3P7hluhyCMMOKmCo_kKq_AXUMvlQGkre9rGCuuytaCkB1ch1flCPMknnL2KAmcnOxElYnyFwDqWezFL9OxtRo9XaSlW3iExQ7e7_gGO",
+
+    "endpoint": "https://fcm.googleapis.com/fcm/send/ebn3b3aFanc:APA91bGHj48CrBCp7FEkKCxMUwJLbGUQraRrsCoviBYkfZFVFItoVNYXd9eeCDjmhXDOtG9Y3h0nOCXjsWWoilw1GwO6mylkoD8yQeIRD7c0PxffNAOuDEXo6nhY5UM2xRdWiTkYHjx2",
     "expirationTime": null,
     "keys": {
-        "p256dh": "BNOMm_WZGRkLSeYGtnPYOYo4eL_84oP7slXNdF9Wb0y13MLr_80so0ziSBjBGb-6ztAj9CdySaXCW0Q_fH9xsnE",
-        "auth": "v74PCk_tqeOpIlk539sYtA"
+        "p256dh": "BDBXf6Qyz-Pb-ns7xKamTOO06g1MVssVaGOcMR2IYmoXeCKs2ovthigugSJgcjcYsTOxYYKqHXrM60KHJyYg7IE",
+        "auth": "CE4gb_-6Bj3EGTvpcotWfA"
     }
+
 };
 
 console.log('test message');
